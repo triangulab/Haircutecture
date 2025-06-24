@@ -1,0 +1,68 @@
+/* CSS PROPERTIES EXAMPLES FOR HAIRCUTECTURE */
+
+/* LAYOUT & SPACING PROPERTIES */
+.container {
+    max-width: 1200px;        /* width property - maximum width */
+    margin: 0 auto;           /* margin property - centers the container */
+    padding: 0 20px;          /* padding property - space inside container */
+}
+
+/* VISUAL APPEARANCE PROPERTIES */
+.service-card {
+    background-color: #ffffff;    /* background-color property - white background */
+    border-radius: 10px;          /* border-radius property - rounded corners */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);  /* box-shadow property - drop shadow */
+    border: 2px solid #f0f0f0;    /* border property - thin gray border */
+    opacity: 0.9;                 /* opacity property - slight transparency */
+}
+
+/* TEXT & FONT PROPERTIES */
+h1 {
+    font-size: 2.5rem;           /* font-size property - large text */
+    font-family: 'Arial', sans-serif;  /* font-family property - font type */
+    font-weight: bold;           /* font-weight property - bold text */
+    color: #333333;              /* color property - dark gray text */
+    text-align: center;          /* text-align property - centered text */
+    letter-spacing: 2px;         /* letter-spacing property - space between letters */
+    line-height: 1.4;            /* line-height property - space between lines */
+}
+
+/* FLEXBOX PROPERTIES */
+.nav-links {
+    display: flex;               /* display property - creates flex container */
+    justify-content: space-between;  /* justify-content property - spreads items apart */
+    align-items: center;         /* align-items property - centers items vertically */
+    flex-direction: row;         /* flex-direction property - items in a row */
+    gap: 20px;                   /* gap property - space between items */
+}
+
+/* GRID PROPERTIES */
+.services-grid {
+    display: grid;               /* display property - creates grid container */
+    grid-template-columns: repeat(3, 1fr);  /* grid-template-columns property - 3 equal columns */
+    gap: 30px;                   /* gap property - space between grid items */
+}
+
+/* ANIMATION & TRANSITION PROPERTIES */
+.cta-button {
+    transition: all 0.3s ease;   /* transition property - smooth changes */
+    transform: scale(1);         /* transform property - normal size */
+}
+
+.cta-button:hover {
+    transform: scale(1.05);      /* transform property - slightly bigger on hover */
+    background-color: #ff6b6b;   /* background-color property - red on hover */
+}
+
+/* POSITION PROPERTIES */
+.hero {
+    position: relative;          /* position property - positioned relative to normal flow */
+    height: 100vh;               /* height property - full viewport height */
+}
+
+.hero-content {
+    position: absolute;          /* position property - positioned absolutely */
+    top: 50%;                    /* top property - 50% from top */
+    left: 50%;                   /* left property - 50% from left */
+    transform: translate(-50%, -50%);  /* transform property - centers the element */
+}
