@@ -66,3 +66,10 @@ h1 {
     left: 50%;                   /* left property - 50% from left */
     transform: translate(-50%, -50%);  /* transform property - centers the element */
 }
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* space between columns */
+    text-align: center; /* center the text in each column */
+}
