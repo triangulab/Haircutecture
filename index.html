@@ -1,44 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Haircutecture</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haircutecture - Professional Hair Design and Styling">
+    <title>Haircutecture</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Haircutecture</h1>
-    <nav>
-      <a href="#services">Services</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Haircutecture</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Haircut - $25</li>
-      <li>Beardl Trim - $15</li>
-      <li>Haircut + Beard - $35</li>
-    </ul>
-  </section>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Haircutecture</h2>
+                <p>Where artistry meets precision in hair design</p>
+                <button class="cta-button">Book Appointment</button>
+            </div>
+        </section>
 
-  <section id="gallery">
-    <h2>Gallery</h2>
-    <p>Photos coming soon!</p>
-  </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Hair Cutting</h3>
+                        <p>Precision cuts tailored to your style</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Hair Styling</h3>
+                        <p>Professional styling for any occasion</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Hair Coloring</h3>
+                        <p>Expert color treatments and highlights</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>123 Barber St.<br>City, State 12345<br>(555) 555-5555</p>
-  </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>At Haircutecture, we believe that great hair is an art form. Our experienced stylists combine creativity with technical expertise to create stunning looks that enhance your natural beauty.</p>
+            </div>
+        </section>
 
-  <footer>
-    <p>&copy; 2025 Fresh Cuts Barber Shop</p>
-  </footer>
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-grid">
+                    <!-- Gallery images will go here -->
+                    <div class="gallery-item">
+                        <img src="#" alt="Hair styling example 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="#" alt="Hair styling example 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="#" alt="Hair styling example 3">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <script src="script.js"></script>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>info@haircutecture.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Address</h3>
+                        <p>123 Style Street<br>Beauty City, BC 12345</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Haircutecture. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
